@@ -1,6 +1,9 @@
-# PyVimeo
+# PyVimeo 
+python3 version
+
 
 This is a simple library for interacting with the [Vimeo API](https://developers.vimeo.com).
+
 
 ### Example Usage
 
