@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 import urllib
-from base import AuthenticationMixinBase
-from . import GrantFailed
+from vimeo.auth.base import AuthenticationMixinBase
+from vimeo.auth import GrantFailed
 
 class AuthorizationCodeMixin(AuthenticationMixinBase):
     """Implement helpers for the Authorization Code grant for OAuth2."""
