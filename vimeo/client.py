@@ -61,7 +61,7 @@ class VimeoClient(ClientCredentialsMixin, AuthorizationCodeMixin, UploadMixin):
                 kwargs['data'] = json.dumps(kwargs['data'])
                 headers['Content-Type'] = 'application/json'
 
-            kwargs['timeout'] = kwargs.get('timeout', (1, 30))
+            kwargs['timeout'] = kwargs.get('timeout', 30)
             kwargs['auth'] = kwargs.get('auth', self._token)
             kwargs['headers'] = headers
 
