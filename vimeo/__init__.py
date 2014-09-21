@@ -3,4 +3,4 @@
 
 version = (0, 1, 0)
 
-from client import VimeoClient
+from pyvimeo.client import VimeoClient
