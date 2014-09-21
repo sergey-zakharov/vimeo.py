@@ -1,8 +1,8 @@
 #! /usr/bin/env python
 # encoding: utf-8
 
-from vimeo.base import AuthenticationMixinBase
-from . import GrantFailed
+from vimeo.auth.base import AuthenticationMixinBase
+from vimeo.auth import GrantFailed
 
 class ClientCredentialsMixin(AuthenticationMixinBase):
     """Implement the client credentials grant for Vimeo.
