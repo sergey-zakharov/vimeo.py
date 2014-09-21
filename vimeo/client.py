@@ -4,9 +4,9 @@
 from functools import wraps
 import json
 import requests
-from auth.client_credentials import ClientCredentialsMixin
-from auth.authorization_code import AuthorizationCodeMixin
-from upload import UploadMixin
+from vimeo.auth.client_credentials import ClientCredentialsMixin
+from vimeo.auth.authorization_code import AuthorizationCodeMixin
+from vimeo.upload import UploadMixin
 
 class VimeoClient(ClientCredentialsMixin, AuthorizationCodeMixin, UploadMixin):
     """Client handle for the Vimeo API."""
