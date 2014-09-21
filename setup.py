@@ -9,7 +9,7 @@ except ImportError:
 import vimeo
 
 setup(name='PyVimeo',
-    version='.'.join(vimeo.version),
+    version='.'.join(str(vimeo.version)),
     description='Simple interaction with the Vimeo API.',
     author='Vimeo',
     author_email='support@vimeo.com',
